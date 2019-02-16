@@ -1,0 +1,29 @@
+{
+  "title": "Change fn + quote to pipe",
+  "rules": [
+    {
+      "description": "Change fn + quote to pipe",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backslash"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
